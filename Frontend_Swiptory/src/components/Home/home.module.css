@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px 0px #00000026;
+    padding: 0px 30px;
+    height: 65px;
+    gap: 0px;
+    opacity: 0px;
+    align-items: center;
+    align-content: center;
+}
+.navbar.h1{
+    font-family: DM Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.66px;
+    text-align: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    padding: 6px 0px;
+    column-gap: 2vw;
+}
+.bookmark{
+    width: 136px;
+    height: 45px;
+    gap: 0px;
+    border-radius: 20px;
+    border: 1px solid #ff7373 ;
+    opacity: 0px;
+    background: #FF7373;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+.bookmark img{
+    width: 14.18px;
+    height: 17.51px;
+    margin-right: 3px;
+}
+.bookmark span{
+    padding-bottom: 5px;
+}
+.addStory{
+    width: 136px;
+    height: 45px;
+    gap: 0px;
+    border-radius: 20px;
+    border: 1px solid #FF7373 ;
+    opacity: 0px;
+    background: #FF7373;
+    font-family: DM Sans;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: center;
+}
+.user{
+    width: 48px;
+    height: 48px;
+    border-radius: 39px;
+}
+.bar{
+    width: 25px;
+    height: 25px;
+    border: 2px solid #ffffff;
+    padding-top: 9px;
+}
+.category{
+    padding-top: 2vh;
+    padding-left: 1.5vw;
+    display: flex;
+    column-gap: 1vw;
+}
+.storyContent {
+    text-align: center;
+    margin: 20px 10px;
+    padding: 20px ;
+  }
+.profile-icon {
+    cursor: pointer;
+  }
+.head{
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39.06px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+  /* Positioning the popup below the profile icon */
+.profile{
+position: relative;
+}
+  
+  /* Style for the popup */
+.popup {
+display: block;
+position: absolute;
+background-color: #fff;
+border: 1px solid #ccc;
+padding-top: 20px;
+width: 180px;
+height: 120px;
+box-shadow: 0px 4px 4px 0px #00000040;
+z-index: 1;
+top: calc(100% + 10px);
+right:-24px;
+text-align: center;
+}
+.users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 10px;
+}
+.username{
+    font-size: 21px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: center;
+}
+.logout{
+    width: 136px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid #FF7373 ;
+    opacity: 0px;
+    background: #FF7373;
+    margin-top: 20px;
+    font-family: DM Sans;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: center; 
+}
+.storyslides {
+    margin: 20px 10px;
+    padding: 20px;
+    display: flex;
+    column-gap: 5vw;
+  }
+.storyImage{
+    width: 257px;
+    height: 459px;
+}
+.slidecontent {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:left;
+    top: 80%;
+    padding: 0px 20px 10px;
+  }
+.showmore{
+    width: 136px;
+    height: 45px;
+    margin-top: 20px;
+    text-align: center;
+    gap: 0px;
+    opacity: 0px;
+    background: #FF7373;
+    color:#FFFFFF;
+    border: 2px solid #ff7373;
+    border-radius: 21px;
+}
+.poptab{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding-top: 20px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    row-gap: 15px;
+    height: 320px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    z-index: 1;
+    top: calc(100% + 10px);
+    right:-24px;
+    text-align: center;
+  }
+  .crossbars{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #ffffff;
+    padding-top: 9px;
+    top: 5px;
+    right: 0px;
+}
